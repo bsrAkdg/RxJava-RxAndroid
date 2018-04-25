@@ -11,19 +11,19 @@ import java.util.List;
 
 public class Movie implements Serializable {
 
-    @SerializedName("vote_count") Double vote_count;
-    @SerializedName("id") Double id;
-    @SerializedName("video") Boolean video;
-    @SerializedName("vote_average") Double vote_average;
-    @SerializedName("title") String title;
-    @SerializedName("popularity") Double popularity;
-    @SerializedName("poster_path") String poster_path;
-    @SerializedName("original_language") String original_language;
-    @SerializedName("original_title") String original_title;
-    @SerializedName("genre_ids") List<Integer> genre_ids;
-    @SerializedName("backdrop_path") String backdrop_path;
-    @SerializedName("adult") Boolean adult;
-    @SerializedName("overview") String overview;
-    @SerializedName("release_date") String release_date;
+    @SerializedName("vote_count") public Double vote_count;
+    @SerializedName("id") public Double id;
+    @SerializedName("video") public Boolean video;
+    @SerializedName("vote_average") public Double vote_average;
+    @SerializedName("title") public String title;
+    @SerializedName("popularity") public Double popularity;
+    @SerializedName("poster_path") public String poster_path;
+    @SerializedName("original_language") public String original_language;
+    @SerializedName("original_title") public String original_title;
+    @SerializedName("genre_ids") public List<Integer> genre_ids;
+    @SerializedName("backdrop_path") public String backdrop_path;
+    @SerializedName("adult") public Boolean adult;
+    @SerializedName("overview") public String overview;
+    @SerializedName("release_date") public String release_date;
 
 }

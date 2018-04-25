@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MovieApp</string>
+    <string name="default_message_loading_movies">Press the button load popular films</string>
+    <string name="error_message_loading_movies">There seems to have been some error.</string>
 </resources>
